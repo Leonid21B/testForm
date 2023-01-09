@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.modal__body{
+  position: fixed;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(20, 20, 20, 0.245);
+}
+.button-open-modal{
+  cursor: pointer;
+}
+.modal__container{
+  padding: 28px;
+  border-radius: 8px;
+  background-color: white;
+}
+.modal__textarea{
+  resize: none;
+}
+.modal__title{
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.error-input{
+  border: 1px solid red;
+}
