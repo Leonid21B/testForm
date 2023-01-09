@@ -88,7 +88,7 @@ const onSubmit = async (e) => {
     closeModal()
     alert(`Успешно!
     ${JSON.stringify({
-      phone,
+      phone:'+7'+phone.split('').filter(isCharNum).join(''),
       name,
       message
     })}`)
